@@ -1,0 +1,6 @@
+@import "tailwindcss";
+body {
+  /* Add Tailwind classes directly to your HTML elements instead of using @apply here */
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-duration: 500ms;
+}
